@@ -9,7 +9,7 @@ function cargarDatos() {
       tableBody.innerHTML = "";
 
       if (data.devices[0].status != "") {
-        statusActual.textContent = `Estado actual: ${data.devices[0].status}`;
+        statusActual.textContent = `Estado actual: + ${data.devices[0].status}`;
       } else {
         statusActual.textContent = "Estado actual: sin datos";
       }
